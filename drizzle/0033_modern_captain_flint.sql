@@ -1,0 +1,1 @@
+ALTER TABLE "userResponses" DROP COLUMN "patientEmail";

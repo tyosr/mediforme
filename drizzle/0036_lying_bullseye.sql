@@ -1,0 +1,1 @@
+ALTER TABLE "login_logs" ADD COLUMN "user" varchar(255);

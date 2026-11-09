@@ -1,0 +1,2 @@
+ALTER TABLE "medical_files" ADD COLUMN "patient_id" varchar(255);--> statement-breakpoint
+ALTER TABLE "medical_files" ADD CONSTRAINT "medical_files_patient_id_patients_userId_fk" FOREIGN KEY ("patient_id") REFERENCES "public"."patients"("userId") ON DELETE cascade ON UPDATE no action;

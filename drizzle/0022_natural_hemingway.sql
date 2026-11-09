@@ -1,0 +1,1 @@
+DROP TABLE "medicalNotes" CASCADE;

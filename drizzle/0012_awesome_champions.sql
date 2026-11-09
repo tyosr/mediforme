@@ -1,0 +1,1 @@
+ALTER TABLE "patients" ALTER COLUMN "createdAt" DROP DEFAULT;

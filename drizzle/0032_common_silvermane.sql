@@ -1,0 +1,1 @@
+ALTER TABLE "userResponses" ADD COLUMN "patientEmail" varchar(255);
